@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let age = parseInt(prompt("Welcome, enter your age:"));
+        let drink;
+    if (age<40){
+        if (age < 18){
+            alert('You are not eligible for the party.');
+        }
+        else if(age >=35 && age <= 40){
+            drink = 'Any drinks';
+        }
+        else if( age >= 25 && age <= 35){
+            drink = 'Beer'
+        }
+        else if(age >= 18 && age <=25){
+            drink = "Coke"
+        }
+        let drinkOpt;
+        drinkOpt = prompt("What would you like to drink?");
+        if(drinkOpt == drink){
+            alert("Enjoy your " + drink + "!");
+        }
+        else{
+            alert('You have entered an invalid drink that is not present in the party');
+        }
+    }
+    else{
+        alert('You have not entered a valid age.')
+    }
+    
+    </script>
+</body>
+</html>

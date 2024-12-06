@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //and (both condition are true) or not (true vaye false false vaye true) (logical operator ma)
+        let x=40;
+        let y=100;
+        let z=50;
+        let a=110;
+        if(x>y && x>z){
+            console.log("x is greater than y and z");
+        }else if(y>x && y>z){
+            console.log("y is greater than x and z");
+        }else if(z>x && z>y){
+            console.log("z is greater than x and y");
+        }else(a>z && a>y) || (a>z && a>x) || (a>y && a>z);{
+            console.log("a is greater than z and y");
+        }
+    </script>
+</body>
+</html>

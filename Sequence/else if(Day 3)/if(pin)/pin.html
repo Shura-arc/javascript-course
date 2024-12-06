@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let pin = prompt("Enter your pin");
+        if (pin=1234){
+            let amount=10000;
+            let question = prompt("1. Check Balance 2. Withdraw");
+            if (question==1){
+                alert("Your balance is: "+amount); 
+            }else{
+                let namount = prompt("Enter the amount you want to withdraw");
+                if(namount <=amount){
+                    let res = amount-namount;
+                    alert("YOu have withdrawn"+namount+" and your balance is"+res);
+                }else{
+                    alert("Insufficient balance")
+                }
+            }else{
+            alert("Invalid Pin");
+        }
+    }
+
+    </script>
+</body>
+</html>
+//write an application for the party where 18 vanda mathi 40 vanda kam tya chutauxa yedi 18>25<coke 25<35<bear 35<40<all feri 18 vanda kam ra 40 vanda badi lai no entry
+subtraction multiplication

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Confirm Example</title>
+</head>
+<body>
+    <h1>Confirm Demo</h1>
+    <button onclick="showConfirm()">Show Confirm</button>
+
+    <script>
+        function showConfirm() {
+            var result = confirm("Are you sure you want to proceed?");
+            if (result) {
+                alert("You clicked OK!");
+            } else {
+                alert("You clicked Cancel!");
+            }
+        }
+    </script>
+</body>
+</html>

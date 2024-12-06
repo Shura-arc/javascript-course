@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example</title>
+    <style>
+        #myDiv {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="myDiv">Hello!</div>
+    <button onclick="changeColor()">Change Color</button>
+
+    <script>
+        function changeColor() {
+            var element = document.getElementById("myDiv");
+            element.style.color = "red"; // Changes text color to red
+        }
+    </script>
+</body>
+</html>
